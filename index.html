@@ -22,7 +22,34 @@
                 .header-right {
                     width: 100%;
                 }
+
+                .lets-you-row .left-column {
+                    width: 50%;
+                }
+
+                .lets-you-row .middle-column {
+                    width: 50%;
+                }
+
+                .lets-you-row .right-column {
+                    width: 50%;
+                }
             }
+
+            @media only screen and (max-width: 500px) {
+            .lets-you-row .left-column {
+                width: 100%;
+            }
+
+            .lets-you-row .middle-column {
+                width: 100%;
+            }
+
+            .lets-you-row .right-column {
+                width: 100%;
+            }
+        } 
+            
         </style>
     </head>
     <body style="background: black;">
@@ -106,161 +133,135 @@
                         </tr>
                         <!-- end of hero -->
 
-                        <!-- start lets-you-row -->
+                        <!-- start of lets-you-row -->
                         <tr>
-                            <td>
-                                <table class="let-you-row" align="left" width="100%" cellpadding="0" cellspacing="0" border="0"
-                                style="padding: 0 0 70px 0; background: #fafafa;">
+                            <td class="lets-you-row" style="padding: 40px 0 25px; background: #fafafa;">
+                                <h3 align="center" style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+                                font-size: 24px; font-weight: 300; text-transform: uppercase; padding: 0; color: #333333;">
+                                    Hero let's you...
+                                </h3>
+                                <!-- start of left column -->
+                                <table class="left-column" align="left" width="33.33%" cellpadding="0" cellspacing="0" border="0"
+                                style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+                                padding: 15px 15px 70px 15px;">
                                     <tr>
-                                        <td align="center">
-                                            <h2 style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
-                                            font-size: 24px; font-weight: 300; text-transform: uppercase; padding: 40px 0 20px 0; color: #333333;">
-                                                Hero let's you
-                                            </h2>
+                                        <td>
+                                            <!-- start of icon-table -->
+                                            <table class="icon-table" align="left" width="50%" cellpadding="0" cellspacing="0" border="0"
+                                            style="">
+                                                <tr>
+                                                    <td>
+                                                        <img src="img/bell_icon.png" alt="Bell Icon" style="padding: 0 10px 0 0;">
+                                                    </td>
+                                                    <td style=" font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+                                                    font-size: 14px; font-weight: 600; text-transform: uppercase; color: #333333;">
+                                                        Notify
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <!-- end of icon-table -->
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            <!-- start of feature -->
-                                            <table class="features" align="left" width="100%" cellpadding="0" cellspacing="0" border="0"
-                                            style="">
-                                                <tr>
-                                                    <td>
-                                                        <!-- start of left column -->
-                                                        <table class="left-column" align="left" width="33.33%" cellpadding="0" cellspacing="0" border="0"
-                                                        style="padding: 0 0 0 20px;">
-                                                            <tr>
-                                                                <td>
-                                                                    <!-- start of title-icon -->
-                                                                    <table class="title-icon" align="left" width="50%" cellpadding="0" cellspacing="0" border="0"
-                                                                    style="">
-                                                                        <tr>
-                                                                            <td style="padding: 0 15px 0 0;">
-                                                                                <img src="img/bell_icon.png" alt="Bell icon">
-                                                                            </td>
-                                                                            <td>
-                                                                                <p style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
-                                                                                font-size: 14px; font-weight: bold; color: #333333;">
-                                                                                    Notify
-                                                                                </p>
-                                                                            </td>
-                                                                        </tr>
-                                                                    </table>
-                                                                    <!-- end of title-icon -->
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>
-                                                                    <p style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
-                                                                    font-size: 14px; color: #7f8887;">
-                                                                        Cras mattis consectetur purus sit fermentum
-                                                                    </p>
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>
-                                                                    <a href="#" style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
-                                                                    font-size: 14px; font-weight: bold; text-decoration: none; color: #2792ec">
-                                                                        Learn More
-                                                                    </a>
-                                                                </td>
-                                                            </tr>
-                                                        </table>
-                                                        <!-- end of left column -->
-
-                                                        <!-- start of middle column -->
-                                                        <table class="middle-column" align="left" width="33.33%" cellpadding="0" cellspacing="0" border="0"
-                                                        style="padding: 0 0 0 20px;">
-                                                            <tr>
-                                                                <td>
-                                                                    <!-- start of title-icon -->
-                                                                    <table class="title-icon" align="left" width="50%" cellpadding="0" cellspacing="0" border="0"
-                                                                    style="">
-                                                                        <tr>
-                                                                            <td style="padding: 0 15px 0 0;">
-                                                                                <img src="img/share_icon.png" alt="Share icon">
-                                                                            </td>
-                                                                            <td>
-                                                                                <p style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
-                                                                                font-size: 14px; font-weight: bold; text-transform: uppercase; color: #333333;">
-                                                                                    Share
-                                                                                </p>
-                                                                            </td>
-                                                                        </tr>
-                                                                    </table>
-                                                                    <!-- end of title-icon -->
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>
-                                                                    <p style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
-                                                                    font-size: 14px; color: #7f8887;">
-                                                                        Cras mattis consectetur purus sit fermentum
-                                                                    </p>
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>
-                                                                    <a href="#" style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
-                                                                    font-size: 14px; font-weight: bold; text-decoration: none; color: #2792ec;">
-                                                                        Learn More
-                                                                    </a>
-                                                                </td>
-                                                            </tr>
-                                                        </table>
-                                                        <!-- end of middle column -->
-
-                                                        <!-- start of right column -->
-                                                        <table class="right-column" align="left" width="33.33%" cellpadding="0" cellspacing="0" border="0"
-                                                        style="padding: 0 0 0 20px;">
-                                                            <tr>
-                                                                <td>
-                                                                    <!-- start of table icon -->
-                                                                    <table class="title-icon" align="left" width="50%" cellpadding="0" cellspacing="0" border="0"
-                                                                    style="">
-                                                                        <tr>
-                                                                            <td style="padding: 0 15px 0 0;">
-                                                                                <img src="img/wifi_icon.png" alt="Wifi icon">
-                                                                            </td>
-                                                                            <td>
-                                                                                <p style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
-                                                                                font-size: 14px; font-weight: bold; text-transform: uppercase; color: #333333;">
-                                                                                    Connect
-                                                                                </p>
-                                                                            </td>
-                                                                        </tr>
-                                                                    </table>
-                                                                    <!-- end of table icon -->
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>
-                                                                    <p style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
-                                                                    font-size: 14px; color: #7f8887;">
-                                                                        Cras mattis consectetur purus sit fermentum
-                                                                    </p>
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>
-                                                                    <a href="#" style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
-                                                                    font-size: 14px; font-weight: bold; text-decoration: none; color: #2792ec;">
-                                                                        Learn More
-                                                                    </a>
-                                                                </td>
-                                                            </tr>
-                                                        </table>
-                                                        <!-- end of right column -->
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                            <!-- end of feature -->
+                                            <p style="font-size: 14px; line-height: 1.8; color: #7f8887;">
+                                                Cras mattis consectetur purus sit fermentum
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="#" style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+                                            font-size: 14px; font-weight: 600; text-decoration: none; color: #2792ec;">
+                                                Learn More 
+                                            </a>
                                         </td>
                                     </tr>
                                 </table>
+                                <!-- start of left column -->
+
+                                <!-- start of middle column -->
+                                <table class="left-column" align="left" width="33.33%" cellpadding="0" cellspacing="0" border="0"
+                                style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+                                padding: 15px 15px 70px 15px;">
+                                    <tr>
+                                        <td>
+                                            <!-- start of icon-table -->
+                                            <table class="icon-table" align="left" width="50%" cellpadding="0" cellspacing="0" border="0"
+                                            style="">
+                                                <tr>
+                                                    <td>
+                                                        <img src="img/share_icon.png" alt="Share Icon" style="padding: 0 10px 0 0;">
+                                                    </td>
+                                                    <td style=" font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+                                                    font-size: 14px; font-weight: 600; text-transform: uppercase; color: #333333;">
+                                                        Share
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <!-- end of icon-table -->
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p style="font-size: 14px; line-height: 1.8; color: #7f8887;">
+                                                Cras mattis consectetur purus sit fermentum
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="#" style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+                                            font-size: 14px; font-weight: 600; text-decoration: none; color: #2792ec;">
+                                                Learn More 
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <!-- end of middle column -->
+
+                                <!-- start of right column -->
+                                <table class="left-column" align="left" width="33.33%" cellpadding="0" cellspacing="0" border="0"
+                                style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+                                padding: 15px 15px 70px 15px;">
+                                    <tr>
+                                        <td>
+                                            <!-- start of icon-table -->
+                                            <table class="icon-table" align="left" width="50%" cellpadding="0" cellspacing="0" border="0"
+                                            style="">
+                                                <tr>
+                                                    <td>
+                                                        <img src="img/wifi_icon.png" alt="Wifi Icon" style="padding: 0 10px 0 0;">
+                                                    </td>
+                                                    <td style=" font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+                                                    font-size: 14px; font-weight: 600; text-transform: uppercase; color: #333333;">
+                                                        Connect
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <!-- end of icon-table -->
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p style="font-size: 14px; line-height: 1.8; color: #7f8887;">
+                                                Cras mattis consectetur purus sit fermentum
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="#" style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+                                            font-size: 14px; font-weight: 600; text-decoration: none; color: #2792ec;">
+                                                Learn More 
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <!-- end of right column -->
                             </td>
                         </tr>
-                        <!-- start lets-you-row -->
+                        <!-- start of lets-you-row -->
 
                         <!-- start of advanced -->
                         <tr>
