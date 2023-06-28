@@ -16,6 +16,16 @@
                 .header-left {
                     padding: 40px 50px 70px !important;
                 }
+
+                .advance-table .advance-img {
+                    width: 80%;
+                }
+            }
+
+            @media only screen and (max-width: 600px) {
+                .container {
+                    width: 600px;
+                }
             }
 
             /* Mobile */
@@ -43,6 +53,31 @@
                 .lets-you-row .right-column {
                     width: 50%;
                 }
+
+                .advance-table .advance-img {
+                    width: 100%;
+                }
+
+                .advance-table .left-column {
+                    width: 100%;
+                    padding: 20px 50px !important;
+                }
+
+                .advance-table .right-column {
+                    width: 100%;
+                    padding: 20px 50px !important;
+                }
+
+                .advance-table .left-column .left-store {
+                    width: 100%;
+                    text-align: center;
+                }   
+
+                .advance-table .right-column .right-store {
+                    width: 100%;
+                    text-align: center;
+                }
+
             }
 
             @media only screen and (max-width: 500px) {
@@ -58,6 +93,7 @@
                     width: 100%;
                 }
             }
+
         </style>
     </head>
     <body style="background: black;">
@@ -276,7 +312,73 @@
                         </tr>
                         <!-- end of lets-you-row-->
 
+                        <!-- start of advanced -->
+                        <tr>
+                            <td>
+                                <table class="advance-table" align="left" width="100%" cellpadding="0" cellspacing="0" border="0"
+                                style="padding: 50px 15px 70px 15px;">
+                                    <tr>
+                                        <td align="center" style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;">
+                                            <img class="advance-img" src="img/image_head.jpg" alt="Advance app image">
+                                            <h2 style="font-size: 24px; font-weight: 300; line-height: 1.5; color: #333333;">
+                                                World's <span style="font-weight: 600;">Most Advanced App</span><br>
+                                                With High-Tech Solutions
+                                            </h2>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <!-- start of left column -->
+                                            <table class="left-column" align="left" width="50%" cellpadding="0" cellspacing="0" border="0"
+                                            style="padding: 15px 15px 0 15px;">
+                                                <tr>
+                                                    <td align="right">
+                                                        <p style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+                                                        font-size: 14px; line-height: 1.8; padding: 0 0 30px; color: #7f8887;">
+                                                            The Strong museum has collected more than 55,000 video games and related artifacts from the history of gaming.
+                                                        </p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="right" class="left-store">
+                                                        <a href="#">
+                                                            <img  src="img/appstore.png" alt="Appstore image link">
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <!-- end of left column -->
+
+                                            <!-- start of right column -->
+                                            <table class="right-column" align="left" width="50%" cellpadding="0" cellspacing="0" border="0"
+                                            style="padding: 15px 15px 0 15px;">
+                                                <tr>
+                                                    <td>
+                                                        <p style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+                                                        font-size: 14px; line-height: 1.8; padding: 0 0 30px; color: #7f8887;">
+                                                            The Strong museum has collected more than 55,000 video games and related artifacts from the history of gaming.
+                                                        </p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="left" class="right-store">
+                                                        <a href="#">
+                                                            <img src="img/playstore.png" alt="Playstore image link">
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <!-- end of right column -->
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <!-- end of advanced -->
+
+                        <!-- start of one solution -->
                         
+                        <!-- end of one solution -->
                     </table>
                     <!-- end of container -->
                 </td>
